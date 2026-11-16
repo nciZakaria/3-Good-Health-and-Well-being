@@ -2,10 +2,10 @@
 <html lang="en">
 
   <head> 
-	<!-- Page owner: your name -->
+	<!-- Page owner: Zakaria Dichouri Mahjoub -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="author" content=""> <!--Add your name between the "" -->
+      <meta name="author" content="Zakaria Dichouri Mahjoub"> 
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.css">
       <title>Take Action | Iron Habit</title>
@@ -39,10 +39,39 @@
     </div>
   </div>
 </nav> <!--Bootstrap navabar finish -->
-    <div class="container my-5">
-		<h1>Take Action</h1>
-		<p>Coming soon...</p>
+	<div class="hero">
+			<img class="hero-img" src="imgWebp/zd_bodyFit.webp" alt="Man training in the gym">
+			<div class="hero-text">
+				<h1>Take Action</h1>
+				<p>Find out how much protein you need to reach your goal</p>
+			</div>
+		</div>
+	<div class="container my-5">
+		<div class="row mb-5">
 		
+			<div class="col-md-6">
+				<h2>Protein Calculator</h2>
+				
+				<div class="mb-3">
+					<label for="weight" class"form-label">Your weight (kg)</label>
+					<input type="number" class="form-control" id="weight" placeholder="e.g. 75">
+				</div>
+				
+				<div class="mb-3">
+					<label for="goal" class="form-label">Your goal</label>
+					<select class="form-select" id="goal">
+					<option value="2.0">Lose fat</option>
+					<option value="1.6">Maintain</option>
+					<option value="1.8">Build muscle</option>
+					</select>
+				</div>
+				<button type="button" class="btn btn-danger" id="calcBtn">Calculate</button>
+			</div>
+			<div class="col-md-6">
+				<div id="result" class="p-4 border rounded">
+				</div>
+			</div>
+		</div>
 	</div>
 	
       <!--footer section -->
