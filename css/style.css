@@ -1,18 +1,16 @@
-/* Zakaria – Keep footer at the bottom on short pages */
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
-/* Zakaria – Dark navbar to match the footer */
+/* Navan bootsrap*/
 .main-nav {
-  background-color: #1A1A1A;
+  background-color: #2A7C13;
 }
 
 /* Accent colour for the current page link */
 .main-nav .nav-link.active {
-  color: #E63946;
+  color: #ECECEC;
 }
 
 /* Zakaria – Hero image with text on top */
